@@ -2,10 +2,10 @@
   "name": "circular-texeffect",
   "version": "1.0.0",  
   "scripts": {
-    "start": "parcel src/index.html --open",
+    "start": "node server.js",
     "clean": "rm -rf dist/*",
     "build:parcel": "parcel build src/index.html",
-    "build": "npm run clean && npm run build:parcel"
+    "build": "node server.js"
   },
   "repository": {
     "type": "git",
