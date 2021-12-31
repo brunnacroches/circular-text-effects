@@ -4,8 +4,8 @@
   "scripts": {
     "start": "parcel src/index.html --open",
     "clean": "rm -rf dist/*",
-    "build:parcel": "parcel build src/index.html",
-    "build": "parcel build src/index.html"
+    "build:parcel": "npx parcel build src/index.html",
+    "build": "npm run clean && npm run build:parcel"
   },
   "repository": {
     "type": "git",
