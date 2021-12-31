@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/parcel-bundler/bin/cli.js src/index.html",
+    "start": "parcel src/index.html --open",
     "clean": "rm -rf dist/*",
-    "build:parcel": "parcel build src/index.html --no-content-hash --no-minify --no-source-maps --public-url ./",
+    "build:parcel": "parcel build src/index.html",
     "build": "npm run clean && npm run build:parcel"
   },
   "repository": {
