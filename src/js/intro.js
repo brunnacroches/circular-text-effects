@@ -1,4 +1,3 @@
-import { randomNumber } from './utils';
 import { gsap } from 'gsap';
 
 const DOM = {

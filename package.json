@@ -1,6 +1,6 @@
 {
   "name": "circular-texeffect",
-  "version": "1.0.0",  
+  "version": "1.0.0",
   "scripts": {
     "start": "node server.js",
     "clean": "rm -rf dist/*",
@@ -16,7 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.2",
-    "gsap": "^3.8.0",
+    "gsap": "^3.9.1",
     "intro": "^1.0.0",
     "parcel": "^2.0.1",
     "preload-font-plugin": "^0.1.5",
